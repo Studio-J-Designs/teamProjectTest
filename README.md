@@ -17,3 +17,5 @@ Code for Branches:
   1. git branch master-dev -- makes branch
   2. git checkout master-dev -- changes branch folder
   3. git branch -- shows all Branches
+
+I'm testing different branches
