@@ -14,6 +14,15 @@ git clone https://github.com/Studio-J-Designs/teamProjectTest.git
 
 Code for Branches:
 
-  1. git branch master-dev -- makes branch
-  2. git checkout master-dev -- changes branch folder
-  3. git branch -- shows all Branches
+  - git branch master-dev   -- makes branch
+  - git checkout master-dev -- changes branch folder
+  - git branch -- shows all Branches
+
+Committing to specific branches:
+
+  - git push origin "insert branch name"
+
+Changing default Committing
+
+- git config --global push.default simple -- pushes only the branch you are on
+- git config --global push.default matching -- pushes all worked on branches
